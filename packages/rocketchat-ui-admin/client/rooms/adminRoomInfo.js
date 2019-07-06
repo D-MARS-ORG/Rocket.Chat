@@ -304,7 +304,7 @@ Template.adminRoomInfo.onCreated(function() {
 				}
 
 				const messageDelay = {
-					messageDelayType: this.messageDelayType.get(),
+					messageDelayType: this.messageDelayType.get().toLowerCase(),
 					messageDelayMS: this.messageDelayMS.get()
 				};
 
